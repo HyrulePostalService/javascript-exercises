@@ -1,10 +1,14 @@
 const repeatString = function() {
-let i = 0;
-let repeat = 'hey';
-while ( i < 3)
-    repeat++;
 
-};
+  
+    let myString = 'Hello!'
+  
+  for (let i = 0; i < 5; i++){
+    alert(myString);
+  }
+    
+  
+    }
 
 // Do not edit below this line
 module.exports = repeatString;
